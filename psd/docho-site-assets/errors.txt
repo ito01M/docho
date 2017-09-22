@@ -1,0 +1,1 @@
+[2017-09-22 10:59:39] layer "header_top.img": Unsupported extension: img
