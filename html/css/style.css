@@ -1,2 +1,214 @@
 @charset "utf-8";
 
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:  "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../../psd/header_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+.inner {
+    width: 940px;
+    height: 655px;
+    margin: 0 auto;   
+    position: relative;
+}
+.header-logo {
+    position: absolute;
+    top: 220px;
+    left: 0;
+}
+.under-line {
+    background-image: url(../../psd/header_under_line.png);
+    width: 100%;
+    height: 55px;
+    background-size: cover;
+    width: 100%;
+}
+
+/* #main */
+#main {
+    
+}
+
+/* about */
+#about {
+    background-image: url(../../psd/about_bg_img.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: ;
+    background-size: cover;
+    width: 100%;
+    height: 1099px;
+    position: relative;
+}
+.border-line01 {
+    background-image: url(../../psd/border.png);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+.inner-about {
+    width: 940px;
+    height: 655px;
+    padding-top: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-title {
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+.sub {
+    width: 180px;
+    height: 23px;
+    line-height: 23px;
+    margin: auto;
+}
+.sub-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sub-line {
+    width:180px;
+    height:4px;
+ background:#003399;
+    margin:auto;
+    margin-bottom: 60px;
+}
+
+.about-txt-01 {
+    font-size: 20px;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.about-txt-02 {
+    font-size: 20px;
+    display: block;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 80px;  
+}
+.about-img01 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 543px;
+    z-index: 2;
+}
+
+.about-img02 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 730px;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+.border-line02 {
+    background-image: url(../../psd/border.png);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;: 0;
+}
+
+/* event */
+#event {
+    background-image: url(../../psd/event_bg_img.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: ;
+    background-size: cover;
+    width: 100%;
+    height: 1048px;
+    position: relative;
+}
+.inner-event {
+    width: 940px;
+    padding-top: 160px;
+    margin: 0 auto;
+    position: relative;
+}
+.event-txt {
+    font-size: 20px;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.event-list {
+    list-style-type: none;
+    width: 940px;
+    height: 210px;
+    margin-bottom: 160px;
+}
+.event-list li:first-child {
+    float: left;
+    margin: 0 10px 30px 20px;
+}
+.event-list li:nth-child(2n) {
+    float: left;
+    margin: 0 10px 30px 10px;
+}
+.event-list li:last-child {
+    float: left;
+    margin: 0 20px 30px 10px;
+}
+.event-listbox {
+    width: 286px;
+    height: 210px;
+}
+.list-title {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.list-txt01 {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.list-txt01 span {
+    font-size: 12px;
+    color: #e02222;
+    margin-left: 5px;
+}
+.list-txt02 {
+    display: block;
+    font-size: 14px;
+}
+/* news */
+#news {
+    background-image: url(../../psd/news_bg_img.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: ;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    position: relative;
+}
+.inner-news {
+    width: 940px;
+    padding-top: 160px;
+    margin: 0 auto;
+    position: relative;
+}
