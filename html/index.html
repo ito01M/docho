@@ -5,20 +5,33 @@
     <meta charset="utf-8">
     <title>ページタイトル</title>
     <meta name="description" content="ページの説明">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header id="header">
+       
         <div class="inner">
             <h1 class="header-logo">
                 <img src="../psd/header_logo.png" alt="赤れんがへようこそ">
             </h1>
+           </div>
+      
+        <div class="under-line01">
+            <nav class="topnav">
+                <ul>
+                    <li class="nav-about"><a href="#">about</a></li>
+                    <li class="nav-event"><a href="#">event</a></li>
+                    <li class="nav-news"><a href="#">news</a></li>
+                    <li class="nav-gallery"><a href="#">gallery</a></li>
+                    <li class="nav-access"><a href="#">access</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="under-line">
-            <nav class="topnav"></nav>
-        </div>
+        <div class="under-line02"></div>
     </header>
 
     <main id="main">
@@ -95,6 +108,7 @@
             </div>
         </section>
         <section id="news">
+       <div class="border-line01"></div>
             <div class="inner-news">
                 <h2 class="main-title">
                     News
@@ -119,8 +133,9 @@
                         <dd>赤れんがFree Wi-Fiサービスの提供中です。(総務部総務課・経済部観光局)</dd>
                     </div>
                 </dl>
-                <div class="news-btn">過去の更新情報はこちらをご覧ください。</div>
+                <div class="news-btn"><a href="#">過去の更新情報はこちらをご覧ください。</a></div>
             </div>
+            <div class="border-line02"></div>
         </section>
         <section id="gallery">
             <div class="inner-gallery">
@@ -139,21 +154,67 @@
                 </p>
             </div>
             <div class="gallery-img">
-                <ul class="img-list">
+                <ul class="list-top">
                     <li><img src="../psd/gallery_img_01.png" alt="八重桜"></li>
                     <li><img src="../psd/gallery_img_02.png" alt="緑の木々"></li>
                     <li><img src="../psd/gallery_img_03.png" alt="イチョウ並木"></li>
                     <li><img src="../psd/gallery_img_04.png" alt="雪景色"></li>
+                </ul>
+                <ul class="list-bottom">
                     <li><img src="../psd/gallery_img_05.png" alt="池で泳ぐカモ"></li>
                     <li><img src="../psd/gallery_img_06.png" alt="スイレンの花"></li>
                     <li><img src="../psd/gallery_img_07.png" alt="紅葉"></li>
                     <li><img src="../psd/gallery_img_08.png" alt="イルミネーション"></li>
                 </ul>
             </div>
+            <div class="gallery-line">
+            </div>
         </section>
-        <section id="access"></section>
+        <section id="access">
+            <div class="inner-access">
+                <h2 class="main-title">
+                    Access
+                </h2>
+                <div class="sub">
+                    <h3 class="sub-title">
+                        交通アクセス
+                    </h3>
+                    <div class="sub-line"></div>
+                </div>
+                <div class="access-img">
+                    <img src="../psd/access_map.png" alt="アクセスマップ">
+                </div>
+                <div class="access-txt">
+                    <p class="access-txt-01">住所　札幌市中央区北３条西６丁目<br> 営業時間　8時45分～18時<br>料金　無料<br> 駐車場　なし</p>
+                    <p class="access-txt-02">お問い合わせ<br>011-204-5019<span>（ダイヤルイン／平日8時45分～17時30分）</span><br>011-204-5000<span>（北海道庁本庁舎中央司令室／土曜・日曜・祝日）</span>
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <div class="inner-footer">
+                <h2 class="footer-logo">
+                    AKARENGA
+                </h2>
+                <div class="footer-nav">
+                    <ul>
+                        <li>About</li>
+                        <li>Event</li>
+                        <li>News</li>
+                        <li>Gallery</li>
+                        <li>Access</li>
+                    </ul>
+                </div>
+                <div class="sns-btn">
+                    <ul>
+                        <li><img src="../psd/twitter.png" alt="ツイッターへ"></li>
+                        <li><img src="../psd/facebook.png" alt="フェイスブックへ"></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="footer-line"></div>
+    </footer>
 </body>
 
 </html>
