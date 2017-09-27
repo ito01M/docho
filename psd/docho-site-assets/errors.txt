@@ -1,1 +1,1 @@
-[2017-09-26 15:38:38] layer "header_img.jpg": Duplicate path: header_img.jpg
+[2017-09-27 11:05:22] layer "header_img.jpg": Duplicate path: header_img.jpg
